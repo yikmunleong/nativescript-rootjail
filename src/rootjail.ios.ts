@@ -1,5 +1,4 @@
-import { Common } from './rootjail.common';
-
-export class Rootjail extends Common {
-
+export function isRootJail() {
+    console.log('iOS is jailbroken: ', DTTJailbreakDetection.isJailbroken());
+    return DTTJailbreakDetection.isJailbroken();
 }
