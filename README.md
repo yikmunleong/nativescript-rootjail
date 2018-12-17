@@ -5,7 +5,9 @@ Simply checks for rooted Android using https://github.com/scottyab/rootbeer and 
 ## Installation
 
 ```javascript
-tns plugin add nativescript-rootjail
+"dependencies": {
+    "nativescript-rootjail": "git+https://github.com/yikmunleong/nativescript-rootjail.git"
+}
 ```
 
 ## Usage 
